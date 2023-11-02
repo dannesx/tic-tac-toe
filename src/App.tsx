@@ -18,8 +18,8 @@ function App() {
 				<Score name="cross" points={p1Score} />
 				<Score name="circle" points={p2Score} />
 				<Grid />
-				{result ? <Button value="new game" action={startNewGame} /> : null}
 			</div>
+			{result ? <Button value="new game" action={startNewGame} /> : null}
 		</div>
 	)
 }
